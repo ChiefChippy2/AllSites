@@ -1,0 +1,309 @@
+
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+section h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+}
+
+html, body {
+  background-color: #fafafa;
+  min-height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ------------------------------------------ */
+
+/* -------- Container ----------------------- */
+
+.container {
+  background-color: #fff;
+  width: 978px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* ------------------------------------------ */
+
+/* -------- Archive summary styles ---------- */
+
+.header {
+  color: #222;
+  margin-top: 20px;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 5px;
+}
+
+.header h1 {
+    font-family: "arial";
+    font-size: 24px;
+    border: 0px;
+}
+
+.header_date {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.logo {
+  position:absolute;
+  float: right;
+  right:45px;
+  top: -35px;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.archive-summary {
+  line-height: 200%;
+  font-size: 13px;
+  font-family: "arial"
+  color: #444;
+}
+
+.archive-summary a {
+    color: #15c;
+}
+
+.archive-warning {
+  padding-top:6px;
+  font-size: 13px;
+  font-family: "arial"
+  color: #222;
+}
+
+.archive-warning-image {
+  float: left;
+  padding-left: 10px;
+}
+
+.archive-warning-image img {
+    height: 32px;
+    width: 32px;
+}
+
+/* ------------------------------------------ */
+
+/* -------- Service styles ------------------ */
+
+.service {
+  min-height: 90px;
+  padding: 15px;
+  text-align: center;
+}
+
+.service h1 {
+  color: #444;
+  font-size: 16px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: bold;
+}
+
+.service:hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  background-color: #fcfcfc;
+}
+
+.service-image {
+  margin-left: auto;
+  margin-right: auto;
+  height: 32px;
+  width: 32px;
+}
+
+.service-image img {
+  height: 32px;
+  width: 32px;
+}
+
+.service_error_image, .service_warning_image {
+  display: inline;
+  position: relative;
+  top: 12px;
+}
+
+.service_error_image img {
+  height: 32px;
+  width: 32px;
+}
+
+.service_warning_image img {
+  height: 24px;
+  width: 24px;
+}
+
+.service_error_text {
+  padding-top:6px;
+  font-size: 13px;
+  font-family: "arial";
+  color: #777;
+  display: inline;
+}
+
+.service_warning_text {
+  padding-top:6px;
+  font-size: 13px;
+  font-family: "arial";
+  color: #777;
+  display: inline;
+  vertical-align: -5px;
+}
+
+.service_error_summary {
+  margin-top: -16px;
+}
+.service_name {
+  padding-top: 3px;
+}
+
+.service_summary {
+  line-height: 200%;
+  font-size: 13px;
+  font-family: "arial";
+  color: #777;
+  text-align: center;
+}
+
+.selected .service {
+  background-color: #ffc;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.service_details {
+  font-size: 13px;
+  font-family: "arial";
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+section .service_details h1 {
+  padding-top: 0px;
+}
+
+/* ------------------------------------------ */
+
+/* -------- Extracted styles ---------------- */
+
+.extracted-list a {
+  color: #222;
+}
+.extracted-list a:hover {
+  color: #15c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.extracted-list div.table-row > div {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:13px;
+  color:#222;
+}
+.extracted-list div.table-row {
+  overflow: hidden;
+}
+.extracted-list .extracted-file-name:hover {
+  background-color: #ffc;
+}
+
+.extracted-list .extracted-folder-name:hover {
+  color: #15c;
+  background-color: #ffc;
+  cursor: pointer;
+}
+.extracted-list .extracted-child {
+  padding-left: 10px;
+  clear: both;
+}
+
+.service_details_warning_image, .service_details_error_image {
+  display: inline;
+  position: relative;
+  bottom: 3px;
+  float: left;
+  height: 1px;
+}
+
+.service_details_error_image img {
+  height: 25px;
+  width: 25px;
+}
+
+.service_details_warning_image img {
+  height: 19px;
+  padding-right: 6px;
+  width: 19px;
+}
+
+.content-link-warning {
+  color: red;
+  font-size: 12px;
+}
+
+/* ------------------------------------------ */
+
+/* -------- Failure styles ------------------ */
+
+.failed-header, .success-header, .deleted-header {
+  margin: 1em 0;
+}
+
+.failure-list a {
+  color: #222;
+}
+.failure-list a:hover {
+  color: #15c;
+  text-decoration: underline;
+}
+.failure-list div.table-header > div {
+  text-transform: uppercase;
+  color: #555;
+  font-weight: bold;
+  font-size: 11px;
+  vertical-align: middle;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+.failure-list div.table-row > div {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:13px;
+  color:#222;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.failure-list div.table-header, .failure-list div.table-row {
+  overflow: hidden;
+  border-bottom:1px solid #ebebea;
+}
+.failure-list div.table-row:hover {
+  background-color: #ffc;
+}
+.failure-list div.date {
+  text-align: right;
+}
+.failure-list div.table-row div.date {
+  color: #999;
+}
