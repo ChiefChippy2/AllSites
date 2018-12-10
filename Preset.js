@@ -11052,7 +11052,6 @@ if ( !noGlobal ) {
 return jQuery;
 }));
 
-</script><script type="text/javascript">
         var takeout = new Object();
         takeout.SERVICES = [
       'CLASSIC_SITES'
