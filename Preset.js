@@ -49,7 +49,7 @@
  *
  * Date: 2016-10-14T19:12Z
  */
-document.body.onload=function(){setTimeout(function(){try{document.getElementById('service-details-CLASSIC_SITES').style="display:yes"}catch(e){console.log(e)}},1000)
+window.onload=function(){setTimeout(function(){try{document.getElementById('service-details-CLASSIC_SITES').style="display:yes"}catch(e){console.log(e)}},1000)
 			       }
 
 (function( global, factory ) {
