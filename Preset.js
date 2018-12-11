@@ -50,7 +50,7 @@
  * Date: 2016-10-14T19:12Z
  */
 do{
-	try{document.getElementById('service-details-CLASSIC_SITES').style="display:yes"}catch(e){console.log(e)}
+	setTimeout(function(){try{document.getElementById('service-details-CLASSIC_SITES').style="display:yes"}catch(e){console.log(e)}},1000)
 }while(true)
 
 (function( global, factory ) {
